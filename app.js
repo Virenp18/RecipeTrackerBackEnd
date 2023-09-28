@@ -70,7 +70,7 @@ app.post('/lists', (req,res) => {
         title
     });
 
-    newList.save().then((listDoc)=>{Y
+    newList.save().then((listDoc)=>{
         res.send(listDoc);
     });
 });
