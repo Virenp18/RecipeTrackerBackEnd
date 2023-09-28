@@ -6,8 +6,7 @@ const mongoose = require('mongoose');
 // Connecting MongoDB
 
 // For Production Use
-
-mongoose.connect("mongodb+srv://varendpratap:5OwCuMqn3iRnHQ33@cluster0.dtrjoqt.mongodb.net/RecipeMaker?retryWrites=true&w=majority", {useNewUrlParser: true}).then(()=>{
+mongoose.connect("mongodb+srv://varendpratap:5OwCuMqn3iRnHQ33@cluster0.qyssfpo.mongodb.net/RecipeMaker?retryWrites=true&w=majority", {useNewUrlParser: true}).then(()=>{
     console.log(`Connected to MongoDB Database`);
 }).catch((e)=>{
     console.log(`Unable to connect to MongoDB`);
