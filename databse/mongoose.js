@@ -14,7 +14,7 @@ mongoose.connect("mongodb+srv://varendpratap:5OwCuMqn3iRnHQ33@cluster0.dtrjoqt.m
     console.log(`Error => ${e}`);
 });
 
-// For Production Use
+// For Local Use
 // change the uri to of localhost to 127.0.0.1 as sometime it is not working
 
 // mongoose.connect(process.env.APPSETTING_DB_CONNECTION_STRING_LOCAL, {useNewUrlParser: true}).then(()=>{
